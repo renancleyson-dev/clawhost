@@ -9,12 +9,12 @@ export default function Hero() {
       className="min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-20 relative"
     >
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-red-900/20 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-red-900/25 via-transparent to-transparent" />
 
       <div className="relative z-10 text-center max-w-3xl mx-auto">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-zinc-900/80 border border-zinc-800 mb-8">
-          <Sparkles className="w-4 h-4 text-red-400" />
+          <Sparkles className="w-4 h-4 text-red-300" />
           <span className="text-sm text-zinc-400">
             Powered by OpenClaw — IA de última geração
           </span>
@@ -23,7 +23,7 @@ export default function Hero() {
         {/* Main headline */}
         <h1 className="font-sans text-5xl md:text-7xl font-bold tracking-tight mb-6">
           <span className="text-zinc-100 block">Seu assistente IA.</span>
-          <span className="bg-gradient-to-r from-red-400 via-red-500 via-75% to-red-600 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-white via-red-200 via-50% to-75% to-red-400 bg-clip-text text-transparent">
             24/7. Sem código.
           </span>
         </h1>
@@ -38,8 +38,8 @@ export default function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
           <button className="group transition-transform duration-300 hover:scale-105 active:scale-95">
-            <div className="relative rounded-full p-[2px] bg-gradient-to-r from-red-700 via-red-500 to-red-700">
-              <div className="flex items-center gap-2 px-6 py-3 rounded-full bg-red-500 hover:bg-red-600 transition-colors">
+            <div className="relative rounded-full p-[2px] bg-gradient-to-r from-red-400 to-90% to-red-600">
+              <div className="flex items-center gap-2 px-6 py-3 rounded-full transition-colors">
                 <span className="text-sm font-medium text-white">
                   Começar Agora
                 </span>

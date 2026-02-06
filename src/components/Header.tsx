@@ -22,22 +22,16 @@ export default function Header() {
         </Link>
         <div className="flex items-center gap-1">
           <Link
-            href="#funcionalidades"
-            className="px-4 py-1.5 text-sm rounded-full transition-colors text-zinc-400 hover:text-zinc-100"
-          >
-            Funcionalidades
-          </Link>
-          <Link
             href="#como-funciona"
             className="px-4 py-1.5 text-sm rounded-full transition-colors text-zinc-400 hover:text-zinc-100"
           >
             Como Funciona
           </Link>
           <Link
-            href="#comecar"
-            className="ml-2 px-4 py-1.5 text-sm rounded-full bg-red-500 text-white font-medium hover:bg-red-600 transition-colors"
+            href="#funcionalidades"
+            className="px-4 py-1.5 text-sm rounded-full transition-colors text-zinc-400 hover:text-zinc-100"
           >
-            Criar Conta
+            Funcionalidades
           </Link>
         </div>
       </nav>

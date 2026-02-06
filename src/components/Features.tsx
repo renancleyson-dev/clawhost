@@ -96,7 +96,7 @@ export default function Features() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="relative">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-red-500/10 border border-red-500/30 text-red-400 font-bold mb-4">
+              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-red-500/10 border border-red-500/30 text-red-300 font-bold mb-4">
                 1
               </div>
               <h3 className="text-xl font-semibold text-zinc-100 mb-2">
@@ -107,7 +107,7 @@ export default function Features() {
               </p>
             </div>
             <div className="relative">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-red-500/10 border border-red-500/30 text-red-400 font-bold mb-4">
+              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-red-500/10 border border-red-500/30 text-red-300 font-bold mb-4">
                 2
               </div>
               <h3 className="text-xl font-semibold text-zinc-100 mb-2">
@@ -118,7 +118,7 @@ export default function Features() {
               </p>
             </div>
             <div className="relative">
-              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-red-500/10 border border-red-500/30 text-red-400 font-bold mb-4">
+              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-red-500/10 border border-red-500/30 text-red-300 font-bold mb-4">
                 3
               </div>
               <h3 className="text-xl font-semibold text-zinc-100 mb-2">
@@ -151,7 +151,7 @@ export default function Features() {
                 className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800 hover:border-red-500/30 transition-colors"
               >
                 <div className="flex items-center gap-4 mb-3">
-                  <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-red-500/10 text-red-400">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-red-500/10 text-red-300">
                     {feature.icon}
                   </div>
                   <h3 className="text-lg font-semibold text-zinc-100">
@@ -225,7 +225,7 @@ export default function Features() {
                     {model.provider}
                   </span>
                   {model.badge && (
-                    <span className="px-2 py-0.5 rounded-full bg-red-500/10 border border-red-500/20 text-xs text-red-400">
+                    <span className="px-2 py-0.5 rounded-full bg-red-500/10 border border-red-500/20 text-xs text-red-300">
                       {model.badge}
                     </span>
                   )}
