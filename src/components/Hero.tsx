@@ -23,7 +23,7 @@ export default function Hero() {
         {/* Main headline */}
         <h1 className="font-sans text-5xl md:text-7xl font-bold tracking-tight mb-6">
           <span className="text-zinc-100 block">Seu assistente IA.</span>
-          <span className="bg-gradient-to-r from-red-400 via-red-500 to-red-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-red-400 via-red-500 via-75% to-red-600 bg-clip-text text-transparent">
             24/7. Sem código.
           </span>
         </h1>

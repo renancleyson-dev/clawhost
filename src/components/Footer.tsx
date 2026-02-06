@@ -10,15 +10,15 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="flex items-center gap-2 font-sans text-xl font-semibold text-zinc-100">
+            <Link href="/" className="flex items-center font-sans text-xl font-semibold text-zinc-100">
               <Image
                 src="/logo.svg"
                 alt="ClawHost"
-                width={32}
-                height={32}
+                width={72}
+                height={72}
                 className="rounded-md"
               />
-              ClawHost
+              <span className="-ml-3">ClawHost</span>
             </Link>
             <p className="mt-4 text-sm text-zinc-500 max-w-xs">
               Seu assistente de IA 24/7. Automatize respostas no WhatsApp, Telegram e X.
