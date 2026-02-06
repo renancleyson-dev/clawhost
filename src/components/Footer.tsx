@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -9,7 +10,14 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="font-sans text-xl font-semibold text-zinc-100">
+            <Link href="/" className="flex items-center gap-2 font-sans text-xl font-semibold text-zinc-100">
+              <Image
+                src="/logo.svg"
+                alt="ClawHost"
+                width={32}
+                height={32}
+                className="rounded-md"
+              />
               ClawHost
             </Link>
             <p className="mt-4 text-sm text-zinc-500 max-w-xs">
@@ -118,7 +126,7 @@ export default function Footer() {
             {/* Email */}
             <a
               href="mailto:contato@clawhost.com.br"
-              className="text-zinc-500 hover:text-zinc-300 transition-colors"
+              className="text-zinc-500 hover:text-red-400 transition-colors"
               aria-label="Email"
               title="contato@clawhost.com.br"
             >
@@ -144,7 +152,7 @@ export default function Footer() {
               href="https://instagram.com/clawhost"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-500 hover:text-zinc-300 transition-colors"
+              className="text-zinc-500 hover:text-red-400 transition-colors"
               aria-label="Instagram"
             >
               <svg
@@ -170,7 +178,7 @@ export default function Footer() {
               href="https://wa.me/5511999999999"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-500 hover:text-zinc-300 transition-colors"
+              className="text-zinc-500 hover:text-red-400 transition-colors"
               aria-label="WhatsApp"
             >
               <svg
@@ -187,7 +195,7 @@ export default function Footer() {
               href="https://github.com/clawhost"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-500 hover:text-zinc-300 transition-colors"
+              className="text-zinc-500 hover:text-red-400 transition-colors"
               aria-label="GitHub"
             >
               <svg

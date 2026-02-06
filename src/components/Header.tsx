@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -8,8 +9,15 @@ export default function Header() {
       <nav className="max-w-5xl mx-auto flex items-center justify-between h-12 px-6 rounded-full bg-zinc-900/70 border border-zinc-800/50 backdrop-blur-md">
         <Link
           href="/"
-          className="font-sans text-lg font-semibold text-zinc-100"
+          className="flex items-center gap-2 font-sans text-lg font-semibold text-zinc-100"
         >
+          <Image
+            src="/logo.svg"
+            alt="ClawHost"
+            width={28}
+            height={28}
+            className="rounded-md"
+          />
           ClawHost
         </Link>
         <div className="flex items-center gap-1">
@@ -27,7 +35,7 @@ export default function Header() {
           </Link>
           <Link
             href="#comecar"
-            className="ml-2 px-4 py-1.5 text-sm rounded-full bg-zinc-100 text-zinc-900 font-medium hover:bg-zinc-200 transition-colors"
+            className="ml-2 px-4 py-1.5 text-sm rounded-full bg-red-500 text-white font-medium hover:bg-red-600 transition-colors"
           >
             Criar Conta
           </Link>

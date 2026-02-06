@@ -24,6 +24,13 @@
   --color-zinc-900: #18181b;
   --color-zinc-950: #09090b;
 
+  /* Primary red scale */
+  --color-red-400: #f87171;
+  --color-red-500: #dc212c;
+  --color-red-600: #b91c25;
+  --color-red-700: #991b1b;
+  --color-red-900: #450a0a;
+
   /* Green for WhatsApp */
   --color-green-500: #22c55e;
 

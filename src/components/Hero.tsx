@@ -9,12 +9,12 @@ export default function Hero() {
       className="min-h-screen flex flex-col items-center justify-center px-6 pt-24 pb-20 relative"
     >
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-b from-zinc-900/50 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-red-900/20 via-transparent to-transparent" />
 
       <div className="relative z-10 text-center max-w-3xl mx-auto">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-zinc-900/80 border border-zinc-800 mb-8">
-          <Sparkles className="w-4 h-4 text-zinc-400" />
+          <Sparkles className="w-4 h-4 text-red-400" />
           <span className="text-sm text-zinc-400">
             Powered by OpenClaw — IA de última geração
           </span>
@@ -23,13 +23,13 @@ export default function Hero() {
         {/* Main headline */}
         <h1 className="font-sans text-5xl md:text-7xl font-bold tracking-tight mb-6">
           <span className="text-zinc-100 block">Seu assistente IA.</span>
-          <span className="bg-gradient-to-r from-zinc-500 via-zinc-300 to-zinc-500 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-red-400 via-red-500 to-red-400 bg-clip-text text-transparent">
             24/7. Sem código.
           </span>
         </h1>
 
         {/* Subheadline */}
-        <p className="text-lg md:text-xl text-zinc-500 max-w-2xl mx-auto mb-10 leading-relaxed text-balance">
+        <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto mb-10 leading-relaxed text-balance">
           Crie seu próprio assistente de IA no WhatsApp, Telegram ou X em menos
           de 1 minuto. Automatize respostas, agende compromissos e deixe a IA
           trabalhar por você.
@@ -38,12 +38,12 @@ export default function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
           <button className="group transition-transform duration-300 hover:scale-105 active:scale-95">
-            <div className="relative rounded-full p-[2px] bg-gradient-to-r from-zinc-600 via-zinc-400 to-zinc-600">
-              <div className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-b from-zinc-800 to-zinc-900">
-                <span className="text-sm font-medium text-zinc-200">
+            <div className="relative rounded-full p-[2px] bg-gradient-to-r from-red-700 via-red-500 to-red-700">
+              <div className="flex items-center gap-2 px-6 py-3 rounded-full bg-red-500 hover:bg-red-600 transition-colors">
+                <span className="text-sm font-medium text-white">
                   Começar Agora
                 </span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-all duration-300 text-zinc-200" />
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-all duration-300 text-white" />
               </div>
             </div>
           </button>
@@ -62,7 +62,7 @@ export default function Hero() {
           <span className="text-sm text-zinc-600">ou entre com</span>
           <div className="flex items-center gap-3">
             {/* Google OAuth */}
-            <button className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-zinc-900 border border-zinc-800 hover:border-zinc-700 hover:bg-zinc-800/80 transition-all text-sm text-zinc-300">
+            <button className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-zinc-900 border border-zinc-800 hover:border-red-500/50 hover:bg-zinc-800/80 transition-all text-sm text-zinc-300">
               <svg className="w-5 h-5" viewBox="0 0 24 24">
                 <path
                   fill="currentColor"
@@ -85,7 +85,7 @@ export default function Hero() {
             </button>
 
             {/* GitHub OAuth */}
-            <button className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-zinc-900 border border-zinc-800 hover:border-zinc-700 hover:bg-zinc-800/80 transition-all text-sm text-zinc-300">
+            <button className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-zinc-900 border border-zinc-800 hover:border-red-500/50 hover:bg-zinc-800/80 transition-all text-sm text-zinc-300">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
               </svg>
